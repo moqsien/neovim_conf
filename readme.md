@@ -17,13 +17,22 @@
 
 | keys | desc |
 |--------|----------|
-| `jk` (insert mode) | Esc |
+| `jk` (insert) | Esc |
 | `gl` (normal/visual) | goto line end |
 | `gh` (normal/visual) | goto line start |
 | `ge` (normal/visual) | goto last line |
 | `gy` (normal/visual) | copy to clipboard |
+| `gp` (normal) | got previous buffer |
+| `gn` (normal) | goto next buffer |
+| `gb` (normal) | goto specified buffer |
 | `<C-a>` (normal) | select all |
 | `<C-s>` (normal) | write |
+| `<C-x>` (normal) | close current buffer |
+| `<C-y>` (insert) | minuet ai completion(manually invoke) |
+| `<C-l>` (insert) | minuet ai completion(accept) |
+| `<C-[>` (insert) | minuet ai completion(previous) |
+| `<C-]>` (insert) | minuet ai completion(next) |
+| `<C-p>` (insert) | minuet ai completion(dismiss) |
 | `<leader>f` (normal) | find files |
 | `<leader>C` (normal) | find nvim config files |
 | `<leader>d` (normal) | Search Diagnostics |
@@ -35,24 +44,20 @@
 | `gi` (normal) | Lspsaga: LSP Finder (implementations) |
 | `gs` (normal) | Lspsaga: Peek Definition |
 | `gd` (normal) | Lspsaga: Goto Definition |
+| `gt` (normal) | Lspsaga: Toggle Terminal |
 | `<leader>r` (normal) | Lspsaga: Rename in Project |
 | `<leader>a` (normal) | Lspsaga: Code Action |
 | `<leader>o` (normal) | Lspsaga: Toggle Outline |
-| `gt` (normal) | Lspsaga: Toggle Terminal |
 | `<leader>e` (normal) | toggle nvim-tree |
+| `<leader>R` (normal) | replace in workspace |
+| `w` (normal/operator/visual) | spider motion w |
+| `e` (normal/operator/visual) | spider motion e |
+| `b` (normal/operator/visual) | spider motion b |
 | `s` (normal/visual/operator) | Flash |
 | `S` (normal/visual/operator) | Flash Treesitter |
 | `r` (operator) | Remote Flash |
 | `R` (operator/visual) | Treesitter Search |
 | `<C-s>` (command) | Toggle Flash Search |
-| `gp` (normal) | got previous buffer |
-| `gn` (normal) | goto next buffer |
-| `gb` (normal) | goto specified buffer |
-| `<C-x>` (normal) | close current buffer |
-| `w` (normal/operator/visual) | spider motion w |
-| `e` (normal/operator/visual) | spider motion e |
-| `b` (normal/operator/visual) | spider motion b |
-| `<leader>R` (normal) | replace in workspace |
 
 ## gallery
 ![neovim](https://github.com/moqsien/neovim_conf/blob/main/imgs/neovim.png)
