@@ -9,6 +9,9 @@ return {
 			provider_options = {
 				openai_compatible = {
 					model = "LongCat-Flash-Chat",
+					-- model = "LongCat-Flash-Lite",
+					-- model = "LongCat-Flash-Thinking"
+					-- model = "LongCat-Flash-Thinking-2601"
 					end_point = "https://api.longcat.chat/openai/v1/chat/completions",
 					api_key = "LONGCAT_API_KEY",
 					name = "longcat",
