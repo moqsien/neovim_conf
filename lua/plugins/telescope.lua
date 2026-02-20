@@ -22,7 +22,7 @@ return {
 			builtin.find_files({})
 		end, { desc = "find files" })
 
-		vim.keymap.set("n", "<leader>c", function()
+		vim.keymap.set("n", "<leader>C", function()
 			builtin.find_files({
 				cwd = vim.fn.stdpath("config"),
 			})
