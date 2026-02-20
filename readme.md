@@ -21,6 +21,7 @@
 | `ge` (normal/visual) | goto last line |
 | `gy` (normal/visual) | copy to clipboard |
 | `<C-a>` (normal) | select all |
+| `<C-s>` (normal) | write |
 | `<leader>f` (normal) | find files |
 | `<leader>C` (normal) | find nvim config files |
 | `<leader>d` (normal) | Search Diagnostics |
@@ -41,7 +42,7 @@
 | `S` (normal/visual/operator) | Flash Treesitter |
 | `r` (operator) | Remote Flash |
 | `R` (operator/visual) | Treesitter Search |
-| `<c-s>` (command) | Toggle Flash Search |
+| `<C-s>` (command) | Toggle Flash Search |
 | `gp` (normal) | got previous buffer |
 | `gn` (normal) | goto next buffer |
 | `gb` (normal) | goto specified buffer |
