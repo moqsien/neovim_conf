@@ -22,3 +22,19 @@ vim.opt.hlsearch = false
 vim.opt.signcolumn = "yes"
 
 vim.opt.clipboard = "unnamedplus"
+
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+vim.api.nvim_create_autocmd("VimEnter", {
+	callback = function()
+		local arg = vim.fn.argv(0)
+		if arg == "" or vim.fn.isdirectory(arg) == 0 then
+			return
+		end
+		vim.cmd.cd(arg)
+
+		vim.schedule(function()
+			require("telescope.builtin").find_files()
+		end)
+	end,
+})
