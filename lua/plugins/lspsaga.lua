@@ -21,7 +21,7 @@ return {
 
 		-- { "<leader>D", "<cmd>Lspsaga show_workspace_diagnostics<CR>", desc = "Lspsaga: Show workspace diagnostics" },
 		{ "<leader>r", "<cmd>Lspsaga rename ++project<CR>", desc = "Lspsaga: Rename in Project" },
-		{ "<leader>a", "<cmd>Lspsaga code_action<CR>", mode = { "n", "v" }, desc = "Lspsaga: Code Action" },
+		{ "<leader>c", "<cmd>Lspsaga code_action<CR>", mode = { "n", "v" }, desc = "Lspsaga: Code Action" },
 		{ "<leader>o", "<cmd>Lspsaga outline<CR>", desc = "Lspsaga: Toggle Outline" },
 
 		{ "gt", "<cmd>Lspsaga term_toggle<CR>", mode = { "n", "t" }, desc = "Lspsaga: Toggle Terminal" },

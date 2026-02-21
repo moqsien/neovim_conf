@@ -46,7 +46,7 @@
 | `gd` (normal) | Lspsaga: Goto Definition |
 | `gt` (normal) | Lspsaga: Toggle Terminal |
 | `<leader>r` (normal) | Lspsaga: Rename in Project |
-| `<leader>a` (normal) | Lspsaga: Code Action |
+| `<leader>c` (normal) | Lspsaga: Code Action |
 | `<leader>o` (normal) | Lspsaga: Toggle Outline |
 | `<leader>e` (normal) | toggle nvim-tree |
 | `<leader>R` (normal) | replace in workspace |
