@@ -1,5 +1,6 @@
 ## Requirements
-- Neovim
+
+- [Neovim](https://github.com/neovim/neovim)
 - Git
 - [Nerd Font](https://github.com/ryanoasis/nerd-fonts)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
@@ -65,6 +66,12 @@
 | `<C-s>` (command) | Toggle Flash Search |
 
 ## gallery
+
 ![neovim](https://github.com/moqsien/neovim_conf/blob/main/imgs/neovim.png)
 ![telescope](https://github.com/moqsien/neovim_conf/blob/main/imgs/neovim_telescope.png)
+
+
+## references
+
+- [awesome neovime](https://github.com/rockerBOO/awesome-neovim)
 
