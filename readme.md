@@ -11,6 +11,7 @@
 - [tree-sitter-cli](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md)
 - make
 - [opencode](https://github.com/anomalyco/opencode)
+- [oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode)
 
 ## Key Mappings
 
