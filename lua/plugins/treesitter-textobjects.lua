@@ -1,6 +1,7 @@
 return {
 	"nvim-treesitter/nvim-treesitter-textobjects",
 	branch = "main",
+	event = "VeryLazy",
 	select = {
 		-- Automatically jump forward to textobj, similar to targets.vim
 		lookahead = true,
@@ -66,11 +67,23 @@ return {
 		vim.keymap.set({ "n", "x", "o" }, "]c", function()
 			to_move.goto_next_start("@class.outer", "textobjects")
 		end)
-		vim.keymap.set({ "n", "x", "o" }, "[F", function()
+		vim.keymap.set({ "n", "x", "o" }, "]m", function()
+			to_move.goto_next_end("@function.outer", "textobjects")
+		end)
+		vim.keymap.set({ "n", "x", "o" }, "]t", function()
+			to_move.goto_next_end("@class.outer", "textobjects")
+		end)
+		vim.keymap.set({ "n", "x", "o" }, "[f", function()
 			to_move.goto_previous_start("@function.outer", "textobjects")
 		end)
-		vim.keymap.set({ "n", "x", "o" }, "[C", function()
+		vim.keymap.set({ "n", "x", "o" }, "[c", function()
 			to_move.goto_previous_start("@class.outer", "textobjects")
+		end)
+		vim.keymap.set({ "n", "x", "o" }, "[m", function()
+			to_move.goto_previous_end("@function.outer", "textobjects")
+		end)
+		vim.keymap.set({ "n", "x", "o" }, "[t", function()
+			to_move.goto_previous_end("@class.outer", "textobjects")
 		end)
 	end,
 }

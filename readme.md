@@ -77,8 +77,12 @@ export AI_MODEL="xxx"
 | `mS` (normal) | swap previous parameter outer |
 | `]f` (normal/visual/operator) | goto next function start |
 | `]c` (normal/visual/operator) | goto next class start |
-| `[F` (normal/visual/operator) | goto previous function start |
-| `[C` (normal/visual/operator) | goto previous class start |
+| `]m` (normal/visual/operator) | goto next function end |
+| `]t` (normal/visual/operator) | goto next class end |
+| `[f` (normal/visual/operator) | goto previous function start |
+| `[c` (normal/visual/operator) | goto previous class start |
+| `[m` (normal/visual/operator) | goto previous function end |
+| `[t` (normal/visual/operator) | goto previous class end |
 
 ## tree-sitter textobjects
 
