@@ -45,7 +45,7 @@ return {
 			to_select.select_textobject("@parameter.outer", "textobjects")
 		end)
 		vim.keymap.set({ "x", "o" }, "ia", function()
-			to_select.select_textobject("@class.parameter", "textobjects")
+			to_select.select_textobject("@parameter.inner", "textobjects")
 		end)
 		-- You can also use captures from other query groups like `locals.scm`
 		vim.keymap.set({ "x", "o" }, "as", function()
