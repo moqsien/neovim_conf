@@ -6,6 +6,8 @@ vim.api.nvim_create_autocmd("FileType", {
 		"go",
 		"markdown",
 		"bash",
+		"zsh",
+		"cpp",
 		"json",
 		"typescript",
 		"yaml",

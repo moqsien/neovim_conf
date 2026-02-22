@@ -23,6 +23,12 @@ export AI_API_KEY="xxx"
 export AI_MODEL="xxx"
 ```
 
+## Tree-sitter plugins
+
+```bash
+:TSInstall lua rust javascript go markdown bash zsh cpp json typescript yaml proto
+```
+
 ## Key Mappings
 
 - leader = " "
