@@ -112,40 +112,41 @@ export AI_MODEL="xxx"
 
 ### Neovim Plugins
 
- [minuet-ai.nvim](https://github.com/milanglacier/minuet-ai.nvim) - AI completion for Neovim
- [nvim-autopairs](https://github.com/windwp/nvim-autopairs) - Autopairs for Neovim
- [blink.cmp](https://github.com/saghen/blink.cmp) - Fast completion engine
- [bufferline.nvim](https://github.com/akinsho/bufferline.nvim) - Buffer line/tabline
- [conform.nvim](https://github.com/stevearc/conform.nvim) - Formatting framework
- [everforest-nvim](https://github.com/neanias/everforest-nvim) - Everforest colorscheme
- [flash.nvim](https://github.com/folke/flash.nvim) - Lightning-fast motions
- [grug-far.nvim](https://github.com/MagicDuck/grug-far.nvim) - Find and replace across workspace
- [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) - Indent line visualization
- [lspsaga.nvim](https://github.com/nvimdev/lspsaga.nvim) - LSP UI enhancements
- [mason-lspconfig.nvim](https://github.com/mason-org/mason-lspconfig.nvim) - LSP configuration with Mason
- [noice.nvim](https://github.com/folke/noice.nvim) - UI enhancements and command history
- [opencode.nvim](https://github.com/nickjvandyke/opencode.nvim) - AI-powered coding assistant
- [nvim-spider](https://github.com/chrisgrieser/nvim-spider) - Enhanced word motion
- [nvim-surround](https://github.com/kylechui/nvim-surround) - Surround text objects
- [nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) - Treesitter text objects
- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Treesitter integration
- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - Fuzzy finder
- [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua) - File explorer
- [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - Statusline
+- [minuet-ai.nvim](https://github.com/milanglacier/minuet-ai.nvim) - AI completion for Neovim
+- [nvim-autopairs](https://github.com/windwp/nvim-autopairs) - Autopairs for Neovim
+- [blink.cmp](https://github.com/saghen/blink.cmp) - Fast completion engine
+- [bufferline.nvim](https://github.com/akinsho/bufferline.nvim) - Buffer line/tabline
+- [conform.nvim](https://github.com/stevearc/conform.nvim) - Formatting framework
+- [everforest-nvim](https://github.com/neanias/everforest-nvim) - Everforest colorscheme
+- [flash.nvim](https://github.com/folke/flash.nvim) - Lightning-fast motions
+- [grug-far.nvim](https://github.com/MagicDuck/grug-far.nvim) - Find and replace across workspace
+- [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) - Indent line visualization
+- [lspsaga.nvim](https://github.com/nvimdev/lspsaga.nvim) - LSP UI enhancements
+- [mason-lspconfig.nvim](https://github.com/mason-org/mason-lspconfig.nvim) - LSP configuration with Mason
+- [noice.nvim](https://github.com/folke/noice.nvim) - UI enhancements and command history
+- [opencode.nvim](https://github.com/nickjvandyke/opencode.nvim) - AI-powered coding assistant
+- [nvim-spider](https://github.com/chrisgrieser/nvim-spider) - Enhanced word motion
+- [nvim-surround](https://github.com/kylechui/nvim-surround) - Surround text objects
+- [nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) - Treesitter text objects
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Treesitter integration
+- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - Fuzzy finder
+- [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua) - File explorer
+- [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - Statusline
+- [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - Git integration with signs
 
 ### Plugin Dependencies
 
- [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) - Utility library
- [telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim) - FZF native extension for Telescope
- [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) - Web devicons
- [friendly-snippets](https://github.com/rafamadriz/friendly-snippets) - Snippet collection
- [mason.nvim](https://github.com/mason-org/mason.nvim) - Package manager
- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - LSP configurations
- [nui.nvim](https://github.com/MunifTanjim/nui.nvim) - UI component library
- [nvim-notify](https://github.com/rcarriga/nvim-notify) - Notification system
- [snacks.nvim](https://github.com/folke/snacks.nvim) - UI components for Opencode
+- [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) - Utility library
+- [telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim) - FZF native extension for Telescope
+- [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) - Web devicons
+- [friendly-snippets](https://github.com/rafamadriz/friendly-snippets) - Snippet collection
+- [mason.nvim](https://github.com/mason-org/mason.nvim) - Package manager
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - LSP configurations
+- [nui.nvim](https://github.com/MunifTanjim/nui.nvim) - UI component library
+- [nvim-notify](https://github.com/rcarriga/nvim-notify) - Notification system
+- [snacks.nvim](https://github.com/folke/snacks.nvim) - UI components for Opencode
 
 ### Other References
 
- [awesome neovim](https://github.com/rockerBOO/awesome-neovim)
+- [awesome neovim](https://github.com/rockerBOO/awesome-neovim)
 
