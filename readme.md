@@ -82,6 +82,8 @@ export AI_MODEL="xxx"
 
 ## tree-sitter textobjects
 
+| keys | desc |
+|--------|----------|
 | `af` (visual/operator) | select function outer |
 | `if` (visual/operator) | select function inner |
 | `ac` (visual/operator) | select class outer |
