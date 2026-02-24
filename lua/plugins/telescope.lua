@@ -8,13 +8,19 @@ return {
 		{ "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
 	},
 	config = function()
-		-- require("telescope").setup({
-		-- 	pickers = {
-		-- 		find_files = {
-		-- 			theme = "dropdown",
-		-- 		},
-		-- 	},
-		-- })
+		require("telescope").setup({
+			pickers = {
+				find_files = {
+					no_ignore = true,
+					hidden = true,
+				},
+				live_grep = {
+					additional_args = function(_)
+						return { "--no-ignore", "--hidden" }
+					end,
+				},
+			},
+		})
 
 		local builtin = require("telescope.builtin")
 
