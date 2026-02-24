@@ -16,6 +16,7 @@ return {
 			"cssls",
 			"emmet_ls",
 			"marksman",
+			"clangd",
 		},
 	},
 	dependencies = {
