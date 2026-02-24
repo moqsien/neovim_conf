@@ -90,6 +90,8 @@ export AI_MODEL="xxx"
 | `[c` (normal/visual/operator) | goto previous class start |
 | `[m` (normal/visual/operator) | goto previous function end |
 | `[t` (normal/visual/operator) | goto previous class end |
+| `<leader>gb` (normal/visual) | Open git blame link |
+| `<leader>gg` (normal/visual) | Open git link |
 
 ## tree-sitter textobjects
 
@@ -134,6 +136,7 @@ export AI_MODEL="xxx"
 - [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua) - File explorer
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - Statusline
 - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - Git integration with signs
+- [gitlinker.nvim](https://github.com/linrongbin16/gitlinker.nvim) - Generate shareable links to code on GitHub, GitLab, etc.
 
 ### Plugin Dependencies
 
