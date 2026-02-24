@@ -12,7 +12,7 @@ return {
 			pickers = {
 				find_files = {
 					no_ignore = true,
-					hidden = true,
+					hidden = false,
 				},
 				live_grep = {
 					additional_args = function(_)
