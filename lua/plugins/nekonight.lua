@@ -6,6 +6,7 @@ return {
 	config = function()
 		local nn = require("nekonight")
 		nn.setup({
+			transparent = true,
 			-- use the night style
 			style = "dracula-at-night",
 			-- disable italic for functions
