@@ -43,7 +43,7 @@ export AI_MODEL="xxx"
 | `ge` (normal/visual) | goto last line |
 | `gp` (normal) | got previous buffer |
 | `gn` (normal) | goto next buffer |
-| `gb` (normal) | goto specified buffer |
+| `gm` (normal) | goto specified buffer |
 | `gy` (normal/visual) | copy to clipboard |
 | `<C-a>` (normal) | select all |
 | `<C-s>` (normal) | write |
@@ -55,6 +55,7 @@ export AI_MODEL="xxx"
 | `<C-l>` (insert) | minuet ai completion(accept) |
 | `<C-[>` (insert) | minuet ai completion(previous) |
 | `<C-]>` (insert) | minuet ai completion(next) |
+| `<leader>t` (normal) | Open todos in telescope |
 | `<C-p>` (insert) | minuet ai completion(dismiss) |
 | `<leader>f` (normal) | find files |
 | `<leader>C` (normal) | find nvim config files |
@@ -85,14 +86,24 @@ export AI_MODEL="xxx"
 | `mS` (normal) | swap previous parameter outer |
 | `]f` (normal/visual/operator) | goto next function start |
 | `]c` (normal/visual/operator) | goto next class start |
-| `]m` (normal/visual/operator) | goto next function end |
 | `]t` (normal/visual/operator) | goto next class end |
+| `]m` (normal/visual/operator) | goto next function end |
 | `[f` (normal/visual/operator) | goto previous function start |
 | `[c` (normal/visual/operator) | goto previous class start |
-| `[m` (normal/visual/operator) | goto previous function end |
 | `[t` (normal/visual/operator) | goto previous class end |
+| `[m` (normal/visual/operator) | goto previous function end |
+| `]d` (normal) | Next todo comment |
+| `[d` (normal) | Previous todo comment |
 | `<leader>gb` (normal/visual) | Open git blame link |
 | `<leader>gg` (normal/visual) | Open git link |
+| `<leader>gg` (normal/visual) | Open git link |
+| `gcc` (normal) | Line-comment toggle |
+| `gbc` (normal) | Block-comment toggle |
+| `gc` (normal/visual) | Line-comment operator |
+| `gb` (normal/visual) | Block-comment operator |
+| `gcO` (normal) | Add comment on line above |
+| `gco` (normal) | Add comment on line below |
+| `gcA` (normal) | Add comment at end of line |
 
 ## tree-sitter textobjects
 
@@ -121,6 +132,7 @@ export AI_MODEL="xxx"
 - [blink.cmp](https://github.com/saghen/blink.cmp) - Fast completion engine
 - [bufferline.nvim](https://github.com/akinsho/bufferline.nvim) - Buffer line/tabline
 - [conform.nvim](https://github.com/stevearc/conform.nvim) - Formatting framework
+- [Comment.nvim](https://github.com/numToStr/Comment.nvim) - Comment plugin for Neovim
 - [everforest-nvim](https://github.com/neanias/everforest-nvim) - Everforest colorscheme
 - [flash.nvim](https://github.com/folke/flash.nvim) - Lightning-fast motions
 - [grug-far.nvim](https://github.com/MagicDuck/grug-far.nvim) - Find and replace across workspace
@@ -134,6 +146,7 @@ export AI_MODEL="xxx"
 - [nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) - Treesitter text objects
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Treesitter integration
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - Fuzzy finder
+- [todo-comments.nvim](https://github.com/folke/todo-comments.nvim) - Highlight and search TODO comments
 - [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua) - File explorer
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - Statusline
 - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - Git integration with signs
