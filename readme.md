@@ -104,6 +104,10 @@ export AI_MODEL="xxx"
 | `gcO` (normal) | Add comment on line above |
 | `gco` (normal) | Add comment on line below |
 | `gcA` (normal) | Add comment at end of line |
+| `<A-j>` (normal/visual) | Move line/block down |
+| `<A-k>` (normal/visual) | Move line/block up |
+| `<A-h>` (normal/visual) | Move word/horizontal block left |
+| `<A-l>` (normal/visual) | Move word/horizontal block right |
 
 ## tree-sitter textobjects
 
@@ -151,6 +155,7 @@ export AI_MODEL="xxx"
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - Statusline
 - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - Git integration with signs
 - [gitlinker.nvim](https://github.com/linrongbin16/gitlinker.nvim) - Generate shareable links to code on GitHub, GitLab, etc.
+- [move.nvim](https://github.com/hinell/move.nvim) - Move lines and blocks with Alt+direction keys
 
 ### Plugin Dependencies
 
