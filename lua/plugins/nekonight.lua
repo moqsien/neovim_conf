@@ -4,8 +4,8 @@ return {
 	priority = 1000,
 	opts = {},
 	config = function()
-		local nekonight = require("nekonight")
-		nekonight.setup({
+		local nn = require("nekonight")
+		nn.setup({
 			-- use the night style
 			style = "dracula-at-night",
 			-- disable italic for functions
@@ -18,6 +18,7 @@ return {
 				colors.error = "#ff0000"
 			end,
 		})
-		nekonight.load()
+
+		nn.load()
 	end,
 }
