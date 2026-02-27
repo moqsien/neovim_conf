@@ -141,7 +141,9 @@ export AI_MODEL="LongCat-Flash-Lite"
 - [conform.nvim](https://github.com/stevearc/conform.nvim) - Formatting framework
 - [Comment.nvim](https://github.com/numToStr/Comment.nvim) - Comment plugin for Neovim
 - [everforest-nvim](https://github.com/neanias/everforest-nvim) - Everforest colorscheme
+- [nekonight.nvim](https://github.com/neko-night/nvim) - Vibrant color scheme with multiple variants for Neovim
 - [flash.nvim](https://github.com/folke/flash.nvim) - Lightning-fast motions
+- [synthweave.nvim](https://github.com/samharju/synthweave.nvim) - Synthwave '84 colorscheme port for Neovim
 - [grug-far.nvim](https://github.com/MagicDuck/grug-far.nvim) - Find and replace across workspace
 - [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) - Indent line visualization
 - [lspsaga.nvim](https://github.com/nvimdev/lspsaga.nvim) - LSP UI enhancements
