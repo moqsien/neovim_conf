@@ -18,6 +18,17 @@ return {
 				colors.hint = colors.orange
 				colors.error = "#ff0000"
 			end,
+			on_highlights = function(hl)
+				hl.Visual = {
+					bg = "#364A82",
+					fg = "NONE",
+					-- fg = colors.bg_dark,
+				}
+				hl.DiagnosticUnnecessary = {
+					fg = "#7A88CF",
+					italic = true,
+				}
+			end,
 		})
 
 		nn.load()
