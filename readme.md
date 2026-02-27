@@ -47,7 +47,7 @@ export AI_MODEL="LongCat-Flash-Lite"
 | `gp` (normal) | got previous buffer |
 | `gn` (normal) | goto next buffer |
 | `gm` (normal) | goto specified buffer |
-| `gy` (normal/visual) | copy to clipboard |
+| `<leader>y` (normal/visual) | copy to clipboard |
 | `<C-a>` (normal) | select all |
 | `<C-s>` (normal) | write |
 | `<C-x>` (normal) | close current buffer |

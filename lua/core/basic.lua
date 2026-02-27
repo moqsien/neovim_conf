@@ -21,7 +21,7 @@ vim.opt.hlsearch = false
 
 vim.opt.signcolumn = "yes"
 
-vim.opt.clipboard = "unnamedplus"
+-- vim.opt.clipboard = "unnamedplus"
 
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
