@@ -19,7 +19,7 @@
 ## Envs
 
 ```bash
-# example
+# example: add envs blow to .zshrc or .bashrc
 export AI_END_POINT="https://api.longcat.chat/openai/v1/chat/completions"
 export AI_API_KEY="xxx"
 export AI_MODEL="LongCat-Flash-Lite"
